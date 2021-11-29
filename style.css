@@ -6,20 +6,83 @@
 
 body {
     width:75%;
+    font-family: 'Ubuntu', sans-serif;
 }
+
+/* Stile Header */
 
 header {
-    height:45px;
-    background-color: lightpink;
-    margin:10px 0;
+    height:90px;
+    margin-bottom: 20px;
+    
 }
 
-article {
-    height:200px;
-    background-color: lightseagreen;
+#logo {
+    height:50px;
+    border-right:1px solid rgb(170, 170, 170);
+    padding-right: 10px;
+    margin-left:8px;
 }
 
+/* Stile barra navigazione */
 
+nav {
+    margin-top:10px;
+    margin-left:0;
+}
+
+nav div {
+    display:inline-block;
+    margin-left:10px;
+    font-size:15px;
+}
+
+nav div a {
+    text-decoration: none;
+    color:#9b9999;
+}
+
+/* Sezione banner */
+
+.banner {
+    position:relative;
+    color:white;
+}
+
+.overlay {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius:8px;
+
+}
+
+#banner-img {
+    width:100%;
+    height:420px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.banner h1 {
+    position:absolute;
+    top:260px;
+    left:35px;
+    color:white;
+    font-weight: 100;
+}
+
+.banner p {
+    position: absolute;
+    top:335px;
+    left:35px;
+    font-size:18px;
+}
+
+/* Inizio Main */
 
 main {
     height:300px;
