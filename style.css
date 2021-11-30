@@ -93,7 +93,15 @@ nav div a {
 }
 
 .title {
+    margin:20px 0;
+}
+.title h2{
+    font-size:28px;
+    font-weight: bold;
+}
 
+.title p{
+    font-size: 17px;
 }
 
 .col {
@@ -121,4 +129,23 @@ nav div a {
 .col-center {
     width:60%;
     padding:0 20px;
+}
+
+.col-text h4 {
+    margin:15px 0;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+footer span::after {
+    content:"\2665";
+    color:red;
+    font-size: 30px;
+    
 }
